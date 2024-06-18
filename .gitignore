@@ -1,0 +1,7 @@
+*.wav
+*.h5
+*.pkl
+
+/16000_pcm_speeches
+
+/eis
