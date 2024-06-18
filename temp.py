@@ -33,8 +33,8 @@ def preprocess_audio(audio_file, sampling_rate=16000, duration=1):
 
 # Function to make predictions
 def predict(audio_file):
-    processed_audio = preprocess_audio(audio_file)
-    prediction = model.predict(processed_audio)
+    # processed_audio = preprocess_audio(audio_file)
+    prediction = model.predict(audio_file)
     return prediction
 
 # Load the model

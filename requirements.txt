@@ -3,3 +3,4 @@ keras>=2.4.0
 numpy>=1.19.0
 ipython>=7.16.0
 pathlib2>=2.3.5
+librosa
